@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate&family=Nanum+Gothic:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./hw_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div class="header">
+      <h1>TO DO LIST</h1>
+      <span class="material-symbols-outlined"> done_outline </span>
+    </div>
+    <div class="content">
+      <form id="todo-form">
+        <div>
+          <label for="todo-input">할 일</label>
+          <input type="text" id="todo-input" />
+        </div>
+        <button class="submit">저장</button>
+      </form>
+      <p id="msg">안내메세지</p>
+      <ul id="todo-list">
+        <li class="item">1. 7시 기상</li>
+        <li class="item">2. 밥먹기</li>
+        <li class="item">3. 복습</li>
+        <li class="item">4. 요가</li>
+      </ul>
+    </div>
+    <script src="./hw_main.js"></script>
+  </body>
+</html>
